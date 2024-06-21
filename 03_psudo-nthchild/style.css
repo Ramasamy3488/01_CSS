@@ -1,0 +1,44 @@
+.red {
+    height: 300px;
+    width: 150px;
+    background-color: red;
+}
+.green{
+    height: 300px;
+    width: 150px;
+    background-color: green;
+}
+.blue{
+    height: 300px;
+    width: 150px;
+    background-color: blue;
+}
+.yellow{
+    height: 300px;
+    width: 150px;
+    background-color: yellow;
+}
+.orange{
+    height: 300px;
+    width: 150px;
+    background-color: rgb(199, 133, 9);
+}
+.outerbox {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+}
+.outerbox div:nth-child(1):hover,.outerbox div:nth-child(3):hover,.outerbox div:nth-child(5):hover {
+    border-radius: 30px;
+}
+.outerbox div:nth-child(2):hover,.outerbox div:nth-child(4):hover {
+    border-radius: 100px;
+}
+.outerbox h4{
+    display: none;
+}
+.outerbox div:nth-child(1):hover h4, .outerbox div:nth-child(2):hover h4, .outerbox div:nth-child(3):hover h4,.outerbox div:nth-child(4):hover h4,.outerbox div:nth-child(5):hover h4{
+     display: block;
+}  
+
